@@ -1,5 +1,7 @@
 # Global Economy Clustering Analysis
 
+![Dashboard Screenshot](screenshot.png)
+
 This project analyzes the global macroeconomic landscape by clustering countries based on key economic indicators. It automates data acquisition, applies machine learning for grouping, and generates a responsive, interactive map. 
 
 The script is designed for a "zero-setup" experience: it automatically installs required dependencies, processes the data, and opens the final visualization in your default web browser.
@@ -31,5 +33,6 @@ The script is designed for a "zero-setup" experience: it automatically installs 
 ```bash
 python global_economy_analysis.py
 ```
+
 
 The script will automatically install any missing libraries, download the latest data, perform the clustering analysis, generate the global_economy_clusters.html file, and open it in your browser.
